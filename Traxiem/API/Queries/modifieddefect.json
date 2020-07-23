@@ -1,0 +1,63 @@
+{
+    "name": "Modified Defect",
+    "dbId": "",
+    "dbIdParent": "",
+    "primaryEntityDefName": "Defect",
+    "queryFieldDefs": [
+        {
+            "fieldPathName": "id",
+            "isShown": true,
+            "sortType": "NO_SORT"
+        },
+        {
+            "fieldPathName": "Headline",
+            "isShown": true,
+            "sortType": "NO_SORT"
+        },
+        {
+            "fieldPathName": "dbid",
+            "isShown": true,
+            "sortType": "NO_SORT"
+        },
+        {
+            "fieldPathName": "history.action_name",
+            "isShown": true,
+            "sortType": "NO_SORT"
+        }
+    ],
+    "filterNode": {
+        "boolOp": "BOOL_OP_AND",
+        "fieldFilters": [
+            {
+                "fieldPath": "Owner",
+                "compOp": "COMP_OP_EQ",
+                "values": [
+                    "[CURRENT_USER]"
+                ]
+            },
+            {
+                "fieldPath": "history.action_name",
+                "compOp": "COMP_OP_IN",
+                "values": [
+                    "Submit",
+                    "Modify",
+                    "Assign"
+                ]
+            },
+            {
+                "fieldPath": "history.action_timestamp",
+                "compOp": "COMP_OP_GT",
+                "values": [
+                    ""
+                ]
+            },
+            {
+                "fieldPath": "history.user_name",
+                "compOp": "COMP_OP_NEQ",
+                "values": [
+                    "[CURRENT_USER]"
+                ]
+            }
+        ]
+    }
+}

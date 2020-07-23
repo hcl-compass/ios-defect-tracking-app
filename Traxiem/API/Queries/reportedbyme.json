@@ -1,0 +1,50 @@
+{
+    "name": "Reported By Me",
+    "dbId": "",
+    "dbIdParent": "",
+    "primaryEntityDefName": "Defect",
+    "queryFieldDefs": [
+        {
+            "fieldPathName": "id",
+            "isShown": true,
+            "sortType": "NO_SORT"
+        },
+        {
+            "fieldPathName": "Headline",
+            "isShown": true,
+            "sortType": "NO_SORT"
+        },
+        {
+            "fieldPathName": "Severity",
+            "isShown": true,
+            "sortType": "NO_SORT"
+        },
+        {
+            "fieldPathName": "dbid",
+            "isShown": true,
+            "sortType": "NO_SORT"
+        },
+        {
+            "fieldPathName": "Submit_Date",
+            "isShown": true,
+            "sortType": "SORT_DESC"
+        },
+        {
+            "fieldPathName": "State",
+            "isShown": true,
+            "sortType": "NO_SORT"
+        }
+    ],
+    "filterNode": {
+        "boolOp": "BOOL_OP_AND",
+        "fieldFilters": [
+            {
+                "fieldPath": "Submitter",
+                "compOp": "COMP_OP_EQ",
+                "values": [
+                    "[CURRENT_USER]"
+                ]
+            }
+        ]
+    }
+}
