@@ -92,7 +92,7 @@ extension SettingsVC: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if section == 0 {
-            return "Enter the base URL of the preferred Traxiem server to connect to. If this is not set, a default base URL will be used."
+            return "Enter the base URL of the preferred Compass server to connect to. If this is not set, a default base URL will be used."
         }
         return "Enter the name of a database to connect to. This database must exist in the repository chosen on the login screen."
     }

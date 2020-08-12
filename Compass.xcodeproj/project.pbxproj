@@ -110,7 +110,7 @@
 		8F3C877E23BAC9BC00B9D048 /* RecordListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListVC.swift; sourceTree = "<group>"; };
 		8F3C878023BAC9FC00B9D048 /* RecordListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListDataSource.swift; sourceTree = "<group>"; };
 		8F45934A244E02820001F789 /* NotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsManager.swift; sourceTree = "<group>"; };
-		8F5AB6D523BAA71E003CD432 /* Traxiem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traxiem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5AB6D523BAA71E003CD432 /* Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F5AB6D823BAA71E003CD432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F5AB6DA23BAA71E003CD432 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8F5AB6DC23BAA71E003CD432 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -314,7 +314,7 @@
 		8F5AB6CC23BAA71E003CD432 = {
 			isa = PBXGroup;
 			children = (
-				8F5AB6D723BAA71E003CD432 /* Traxiem */,
+				8F5AB6D723BAA71E003CD432 /* Compass */,
 				8F5AB6D623BAA71E003CD432 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -322,12 +322,12 @@
 		8F5AB6D623BAA71E003CD432 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F5AB6D523BAA71E003CD432 /* Traxiem.app */,
+				8F5AB6D523BAA71E003CD432 /* Compass.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F5AB6D723BAA71E003CD432 /* Traxiem */ = {
+		8F5AB6D723BAA71E003CD432 /* Compass */ = {
 			isa = PBXGroup;
 			children = (
 				8F3C874023BAB8D200B9D048 /* API */,
@@ -338,7 +338,7 @@
 				8F1EB80A23BEEEBD00169CCF /* Support */,
 				8F5AB6E623BAA720003CD432 /* Info.plist */,
 			);
-			path = Traxiem;
+			path = Compass;
 			sourceTree = "<group>";
 		};
 		8F9567D723F9BF9D009C2D41 /* Queries */ = {
@@ -382,9 +382,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F5AB6D423BAA71E003CD432 /* Traxiem */ = {
+		8F5AB6D423BAA71E003CD432 /* Compass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F5AB6E923BAA720003CD432 /* Build configuration list for PBXNativeTarget "Traxiem" */;
+			buildConfigurationList = 8F5AB6E923BAA720003CD432 /* Build configuration list for PBXNativeTarget "Compass" */;
 			buildPhases = (
 				8F5AB6D123BAA71E003CD432 /* Sources */,
 				8F5AB6D223BAA71E003CD432 /* Frameworks */,
@@ -394,9 +394,9 @@
 			);
 			dependencies = (
 			);
-			name = Traxiem;
+			name = Compass;
 			productName = Traxiem;
-			productReference = 8F5AB6D523BAA71E003CD432 /* Traxiem.app */;
+			productReference = 8F5AB6D523BAA71E003CD432 /* Compass.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -414,7 +414,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8F5AB6D023BAA71E003CD432 /* Build configuration list for PBXProject "Traxiem" */;
+			buildConfigurationList = 8F5AB6D023BAA71E003CD432 /* Build configuration list for PBXProject "Compass" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -427,7 +427,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F5AB6D423BAA71E003CD432 /* Traxiem */,
+				8F5AB6D423BAA71E003CD432 /* Compass */,
 			);
 		};
 /* End PBXProject section */
@@ -654,14 +654,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WQ5W4K9C72;
-				INFOPLIST_FILE = Traxiem/Info.plist;
+				INFOPLIST_FILE = Compass/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.Traxiem;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.Compass;
+				PRODUCT_NAME = Compass;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -673,14 +673,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WQ5W4K9C72;
-				INFOPLIST_FILE = Traxiem/Info.plist;
+				INFOPLIST_FILE = Compass/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.Traxiem;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.Compass;
+				PRODUCT_NAME = Compass;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -689,7 +689,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F5AB6D023BAA71E003CD432 /* Build configuration list for PBXProject "Traxiem" */ = {
+		8F5AB6D023BAA71E003CD432 /* Build configuration list for PBXProject "Compass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F5AB6E723BAA720003CD432 /* Debug */,
@@ -698,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F5AB6E923BAA720003CD432 /* Build configuration list for PBXNativeTarget "Traxiem" */ = {
+		8F5AB6E923BAA720003CD432 /* Build configuration list for PBXNativeTarget "Compass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F5AB6EA23BAA720003CD432 /* Debug */,
