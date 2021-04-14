@@ -4,7 +4,7 @@ Compass iOS app for defect tracking that allows the creation, editing, and delet
 
 ## Who is this tutorial for?
 
-This tutorial is for developers who have basic familiarity with Xcode and Compass, and who want to learn about the new Compass REST APIs that come with Compass version 3.0.
+This tutorial is for developers who have basic familiarity with Xcode and Compass, and who want to learn about the new Compass REST APIs that come with Compass version 2.0.1.
 
 ## Usage
 
